@@ -1,0 +1,51 @@
+.movie{
+    width: 50%;
+    margin: auto;
+}
+
+
+.producerContainer{
+    position: relative;
+}
+.actorContainer{
+    position: relative;
+}
+
+.sugesstionContainer{
+    min-height: 200px;
+    max-height: 250px;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.producer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: 400ms;
+    &:hover{
+        background-color: var(--bg-color1);
+        color: var(--color1);
+    }
+}
+
+.pillsContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.error{
+    color: red;
+}

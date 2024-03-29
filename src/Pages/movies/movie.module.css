@@ -1,0 +1,44 @@
+.img{
+    height: 100%;
+    width: 200px;
+    object-fit: fill;
+}
+
+.movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie{
+    border: 1px solid grey;
+    display: flex;
+    gap: 15px;
+    height: 240px;
+    width: 600px;
+    margin-bottom: 10px;
+    z-index: 50;
+}
+
+.btn{
+    background-color: teal;
+    border: none;
+    color: var(--color1);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.02);
+    }
+}
+
+.newBtnContainer{
+    display: flex;
+    justify-content: end;
+}
+
+
+.btnContainer{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-wrap: wrap
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.left{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.right{
+    width: 500px;
+    margin: auto;
+}
+.bio{
+    height:150px ;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--bg-color1);
+    color: var(--color1);
+}
+
+.producerSuggestion,.actorSuggestion{
+    position: absolute;
+    width: 100%;
+}
+label{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.sugesstionContainer{
+    min-height: 200px;
+    max-height: 250px;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.producerimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.producer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: 400ms;
+    &:hover{
+        background-color: var(--bg-color1);
+        color: var(--color1);
+    }
+}
+
+.pillsContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.name{
+    color: red;
+}

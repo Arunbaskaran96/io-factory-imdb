@@ -1,0 +1,52 @@
+.img{
+    height: 100%;
+    width: 200px;
+    object-fit: fill;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.actorContainer{
+    border: 1px solid grey;
+    display: flex;
+    gap: 15px;
+    height: 240px;
+    width: 600px;
+    margin-bottom: 10px;
+    z-index: 50;
+}
+h2{
+    margin: 5px 0px;
+}
+p{
+    height: 50px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.newBtnContainer{
+    display: flex;
+    justify-content: end;
+}
+
+
+.btn{
+    background-color: teal;
+    border: none;
+    color: var(--color1);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.02);
+    }
+}
+
+.btnContainer{
+    display: flex;
+    gap: 10px;
+}

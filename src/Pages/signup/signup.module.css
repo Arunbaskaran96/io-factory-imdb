@@ -1,0 +1,13 @@
+.container{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    width: 50%;
+}
+.error{
+    color: red;
+}

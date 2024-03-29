@@ -1,0 +1,24 @@
+.editActor{
+    width: 50%;
+    margin: auto;
+}
+.bio{
+    height:150px ;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.genderContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.gender{
+    display: flex;
+    gap: 10px;
+}
+
+
+.error{
+    color: red;
+}

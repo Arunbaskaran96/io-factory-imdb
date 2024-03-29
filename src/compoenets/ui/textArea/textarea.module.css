@@ -1,0 +1,11 @@
+
+.text{
+    height:150px ;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--bg-color1);
+    color: var(--color1);
+    &:focus{
+        outline: none;
+    }
+}

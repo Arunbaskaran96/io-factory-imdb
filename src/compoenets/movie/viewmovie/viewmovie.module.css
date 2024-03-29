@@ -1,0 +1,32 @@
+.img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.drawer{
+    background-color: var(--bg-color1);
+    color: var(--color1);
+    text-align: center;
+    min-height: 100%;
+}
+
+.key{
+    color: #b68d08;
+}
+.value{
+    color: var(--color1)
+}
+
+.producerImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
